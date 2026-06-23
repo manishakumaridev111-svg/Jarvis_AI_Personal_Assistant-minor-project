@@ -62,7 +62,7 @@ class MainWindow(QMainWindow):
         gif_stack = QVBoxLayout(gif_container)
         gif_stack.setContentsMargins(0, 0, 0, 0)
 
-        headline = QLabel("JARVIS AI Voice Assistant")
+        headline = QLabel("JARVIS AI Personal Assistant")
         headline.setAlignment(Qt.AlignmentFlag.AlignCenter)
         headline.setFont(QFont("Consolas", 30))
         headline.setStyleSheet("color: #00cfff; background-color: transparent;")
