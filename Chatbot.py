@@ -1,9 +1,9 @@
-from Model import get_client, get_model, get_system_prompt
-from TextToSpeech import speak
-from RealtimeSearchEngine import search
+from Backend.Model import get_client, get_model, get_system_prompt
+from Backend.TextToSpeech import speak
+from Backend.RealtimeSearchEngine import search
 from datetime import datetime
-from Automation import open_app, open_website, take_screenshot, volume_up, volume_down, mute
-from SpeechToText import listen
+from Backend.Automation import open_app, open_website, take_screenshot, volume_up, volume_down, mute
+from Backend.SpeechToText import listen
 
 
 
