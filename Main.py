@@ -1,5 +1,7 @@
-from Backend.Model  import reply
+from Backend.chatbot  import chat
 from Backend.TextToSpeech import speak
+from Backend.RealtimeSearchEngine import search
+
 
 print("Jarvis Started")
 speak("Hello Master")  # Test if this speaks
